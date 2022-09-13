@@ -1,0 +1,536 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@500&display=swap');
+body{
+    padding: 65px 90px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+header{
+    overflow: hidden;
+    min-height: 24px;
+}
+.nav-bar {
+    display: flex;
+    float: left;
+    align-items: center;
+}
+.nav-bar ul li{
+    list-style: none;
+    display: inline;
+    margin-right: 10px;
+}
+.nav-bar ul li a{
+    margin-right: 10px;
+    color: black;
+    text-decoration: none;
+}
+
+.nav-bar ul li:last-child{
+    margin-right: 0px;
+}
+.nav-bar ul{
+    margin: 0px;
+    padding: 0px;
+}
+.social-media{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: right;
+}
+.social-media p{
+    margin-right: 10px;
+}
+.main-logo{
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+.logo{
+    border: 5px solid black;
+    position: absolute;
+    margin-top: -26px;
+    height: 67px;
+    line-height: 13px;
+    padding: 0px 20px;
+    background-color: white; 
+}
+.logo h1{
+    letter-spacing: 15px;
+    font-weight: bolder;
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+    text-transform: uppercase;
+}
+.image{
+    margin-top: 10px;
+}
+.image img{
+    width: 100%;
+    height: 453px;
+}
+.search-box{
+    width: 100%;
+}
+.search{
+    display: flex;
+    justify-content: center;
+    margin-top: -26px;
+}
+.search input{
+    padding: 10px 2px;
+    width: 55%;
+    border: 1px solid black;
+    border-radius: 0%;
+}
+.search input:active{
+    border: 2px solid black;
+}
+
+.search button{
+    width: 4%;
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+.title{
+    margin-top: 10px;
+}
+.title p{
+    text-align: center;
+    font-size: 29px;
+}
+.main-content{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.content2{
+    margin-top: 30px;
+
+}
+.blog1{
+    display: flex;
+    border: 1px solid grey;
+}
+.blog1 .b-image{
+    width: 40%;
+}
+.blog1 .b-image img{
+    width: 100%;
+    height: 100%;
+}
+.admin{
+    margin-top: 20px;
+    margin-left: 25px;
+    width: 113%;
+    overflow: hidden;
+    height: 50px;
+}
+.user-symbol{
+    padding: 10px;
+    border-radius: 50%;
+    background-color: grey;
+    position: relative;
+    left: 7px;
+    top: 5px;
+    color: white;
+    font-size: 15px;
+    display: inline-block;
+}
+#admin,#date{
+    position: relative;
+}
+#admin{
+    font-size: 19px;
+    left: 43px;
+    top: -51px;
+}
+#date{
+    font-size: 15px;
+    left: 39px;
+    top: -69px;
+}
+.meta-content{
+    width: 100%;
+    position: relative;
+    margin-left: 24px;
+    height: 138px;
+    overflow:hidden ;
+}
+.meta-content a{
+    color: black;
+    text-decoration: none;
+}
+.inner-meta-content{
+    position: relative;
+    top: -20px;
+}
+.meta-content a:hover{
+    color: orange;
+}
+.greyline{
+    width: 100%;
+    height: 1px;
+    background-color: grey;
+    margin-top: 10px;
+}
+.like-and-views{
+    margin-left: 24px;
+    overflow: hidden;
+    position: relative;
+    top: 40px;
+    width: 100%;
+}
+.adjust{
+    top: 20px;
+}
+.like-and-views-content{
+    overflow: hidden;
+}
+.like-and-views-content #views{
+    float: left;
+}
+.like-and-views-content #like{
+    float: right;
+}
+.about{
+    overflow: hidden;
+}
+.button{
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+.button button{
+    padding: 10px 60px;
+    border: 2px solid black;
+    background-color: black;
+    color: white;
+    transition-delay: 0.2s;
+}
+.button button:hover{
+    background: none;
+    color: black;
+    border: 2px solid black;
+}
+.flex-about{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.about-img , .about-content , .mycookbook , .my-cookingbook-content{
+    width: 25%;    
+}
+.about-content , .mycookbook , .my-cookingbook-content{
+    margin-left: 10px;
+}
+.about-content h2 ,.my-cookingbook-content h2 {
+    position: relative;
+    top: -30px;
+}
+.about-img img{
+    width: 100%;
+}
+#border{
+    width: 10%;
+    height: 5px;
+    background-color: black;
+    margin-top: -29px;
+}
+#about-link a{
+    color: black;
+    text-decoration: none;
+}
+.mycookbook img{
+    width: 100%;
+    height: 179px;
+}
+.book-link{
+    color: black;
+    text-decoration: none;
+}
+.contact-sub{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+.sub-email{
+    width: 50%;
+}
+.sub-email h3{
+    font-size: 28px;
+    margin-top: 12px;
+}
+.sub-email span{
+    position: relative;
+    top: 36px;
+}
+.input-email{
+    width: 50%;
+}
+.input-email h5{
+    font-size: 23px;
+    position: relative;
+    top: -29px;
+}
+.input-email #email-enter{
+    width: 96%;
+    padding: 10px;
+    position: relative;
+    top: -45px;
+}
+.input-email .size-email-input{
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    padding: 10px;
+    position: relative;
+    top: -45px;
+}
+.input-email p{
+    opacity: 0.5;
+    font-size: 15px;
+}
+                    /*end of the first page */
+                    /* below about page */
+.blog-post{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+.b-1 , .b-2 , .b-3 , .b-4 , .b-5{
+    width: 47%;
+    padding: 10px;
+}
+.b-3 , .b-4 , .b-5{
+    margin-top: 20px;
+}
+.b-1 .img img ,.b-2 .img img , .b-3 .img img , .b-4 .img img , .b-5 .img img{
+    width: 100%;
+    height: 333px;
+}
+.user-icon{
+    display: inline-block;
+    background-color: grey;
+    padding: 10px;
+    color: white;
+    border-radius: 50%;
+    position: relative;
+    left: 28px;
+    top: 21px;
+    margin: 0px;
+}
+.user-pannel{
+    position: relative;
+    width: 250px;
+
+}
+.user-pannel p{
+    position: relative;
+    top: -18px;
+    left: 72px;
+    color: grey;
+    font-size: 15px;
+    width: 100px;
+    margin: 0px;
+}
+
+.content-blog h1{
+    left: 28px;
+    position: relative;
+    font-size: 35px;
+    margin-top: -5px;
+}
+.content-blog p{
+    left: 28px;
+    position: relative;
+    color: grey;
+    margin-top: -24px;
+}
+.likes{
+    overflow: hidden;
+    margin-top: 100px;
+}
+#likes-right{
+    float: right;
+    margin-right: 28px;
+}
+#likes-left{
+    margin-left: 28px;
+    float: left;
+}
+                        /* end of the blog section */
+                        /* start contact-info section */
+.content-contact{
+    width: 100%;
+    display: flex;
+}
+.aboutus-info{
+ display: flex;
+ width: 50%;
+}
+.aboutus-info-content{
+    width: 50%;
+}
+.aboutus-info-content img{
+   width: 100%;
+   height: 150px;
+}
+.content-img{
+    overflow: hidden;
+    width: 50%;
+}
+.contact-me-info{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+}
+.contect-us{
+    width: 100%;
+}
+                    /*blog page fouth */
+                    /* blog page starts */
+.navigation-blog{
+    position: relative;
+    top: 40px;
+    margin-left: 10px;
+}
+.navigation-blog ul li button{
+    width: 140px;
+    height: 45px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    color: #000;
+    background-color: #fff;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+}
+.navigation-blog ul li button:hover{
+    background-color: #2EE59D;
+    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+    color: #fff;
+    transform: translateY(-7px);
+}
+.navigation-blog ul{
+    position: relative;
+    left: -37px;
+}
+.navigation-blog ul li {
+    list-style: none;
+    display: inline;
+    /* margin-right: 20px ; */
+}
+    /*main content blog */
+.😁{
+    padding:  80px 150px;
+    border: 1px solid grey;
+    margin-top: 10%;
+    position: relative;
+    top: -38px;
+    height: 1906px;
+}
+.hover-image{
+    width: 50%;
+    border: 1px solid black;
+    padding: 50px;
+    position:relative;
+    left: 120px;
+    top: -120px;
+    opacity: 0.5;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translate(0px, -324px);
+    visibility: hidden;
+    overflow: hidden;
+    height: 100px;
+    background-color: black;
+}
+#go-up{
+    position: relative;
+    top: -200px;
+}
+#banner-image{
+        width: 100%;
+}
+.🥖:hover .hover-image{
+    visibility: visible;
+}
+.🧐 h1{
+    position: relative;
+    top: 10px;
+    font-size: 41px;    
+}
+.🧐 #sub-title{
+    font-size: 21px;
+    opacity: 0.5;
+}
+#distraction-1{
+    font-size: 30px;
+    margin-bottom: 8px;
+}
+#distraction{
+    border-left: 3px solid orange;
+    padding: 10px;
+    font-size: x-large;
+}
+.admin-icon-blog-content{
+    border: 1px solid grey;
+    padding: 10px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: inline-block;
+    color: white;
+    background-color: grey;
+}
+.admin-panel-blog-content p{
+    position: relative;
+    top: -59px;
+    left: 48px;
+}
+.social-media-blog-content{
+    overflow: hidden;
+}
+.left-socia-icon{
+    float: left;
+}
+.social-media-blog-content #from-nav{
+    float: right;
+}
+.comment-section-blog-content{
+    padding:  80px 150px;
+    border: 1px solid grey;
+    margin-top: 6%;
+    font-size: 30px;
+}
+.comment-section-blog-content input{
+    width: 600px;
+    border: none;
+    padding: 10px ;
+    outline: none;
+}
+.comment-section-blog-content input::-webkit-input-placeholder{
+    font-size: 20px;
+}
+.comment-section-blog-content .input-border {
+    border-bottom: 3px solid black;
+}
+                                    /* vegetarian blog food start from below */
+.vegetarian-blog2 , .vegetarian-blog3 , .vegetarian-blog4 , .shakes-blog{
+    margin-top: 20px ;
+}
+.vegetarian , .shakes{
+    display: none;
+    margin-top: 61px;
+}
